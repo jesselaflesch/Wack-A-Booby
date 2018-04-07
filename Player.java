@@ -3,17 +3,37 @@ package Classes;
 public class Player 
 {
 	
-	private String name, imageName;	
-	private int xLoc, yLoc, itemsCollected, score;
+	private String imageName;	
+	private int xLoc, yLoc, score;
 	private Movement playerMovement;
 	
 	public Player()
 	{
-		
-		this.xLoc = 0;
-		this.yLoc = 0;
-		this.itemsCollected = 0;
-		this.score = 0;
+
+	}
+	
+	public int getxLoc() {
+		return xLoc;
+	}
+
+
+	public void setxLoc(int xLoc) {
+		this.xLoc = xLoc;
+	}
+
+
+	public int getyLoc() {
+		return yLoc;
+	}
+
+
+	public void setyLoc(int yLoc) {
+		this.yLoc = yLoc;
+	}
+	
+	public void pickUpItem() 
+	{
+		score++;
 	}
 
 }
