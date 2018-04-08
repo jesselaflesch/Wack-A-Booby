@@ -6,11 +6,11 @@ In order for it to work properly, you must create package files and add the righ
 
 Packages and files for which they contain:
 
-Children  -   Booby, Splat
-Classes   -   Game, Movement, Player
-Frame     -   Driver
-Images    -   All .jpg files
-Interface -   Move, UpdateArrays
-MainPanel -   MainPanel
-Parent    -   Animal
-Timers    -   BoobyImageTimer, BoobyTimerListener
+Children  -   Booby, Splat  -:-
+Classes   -   Game, Movement, Player  -:-
+Frame     -   Driver  -:-
+Images    -   All .jpg files  -:-
+Interface -   Move, UpdateArrays  -:-
+MainPanel -   MainPanel -:-
+Parent    -   Animal  -:-
+Timers    -   BoobyImageTimer, BoobyTimerListener -:-
