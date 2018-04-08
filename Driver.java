@@ -1,7 +1,5 @@
 package Frame;
 
-import java.io.FileNotFoundException;
-
 import javax.swing.JFrame;
 
 import MainPanel.MainPanel;
@@ -18,7 +16,7 @@ public class Driver {
 	public static void main(String[] args)  {
 		
 	// Making the frame
-		JFrame myFrame = new JFrame("Wack-A-Boobie");
+		JFrame myFrame = new JFrame("Wack-A-Booby");
 		myFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 	// Making a panel using LevelPanel class that we made

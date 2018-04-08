@@ -1,23 +1,38 @@
 package Interface;
 
-import Children.Booby;
 
 public interface Move 
 {	
-	public void goUpAndLeft(Booby[] myBoobyArray);
+	public void goUpAndLeft(int i);
 	
-	public void goUpAndRight(Booby[] myBoobyArray);
+	public void goUpAndRight(int i);
 	
-	public void goDownAndLeft(Booby[] myBoobyArray);
+	public void goDownAndLeft(int i);
 	
-	public void goDownAndRight(Booby[] myBoobyArray);
+	public void goDownAndRight(int i);
 	
-	public void goUpAndLeftFast(Booby[] myBoobyArray);
+	public void goUpAndLeftFast(int i);
 	
-	public void goUpAndRightFast(Booby[] myBoobyArray);
+	public void goUpAndRightFast(int i);
 	
-	public void goDownAndLeftFast(Booby[] myBoobyArray);
+	public void goDownAndLeftFast(int i);
 	
-	public void goDownAndRightFast(Booby[] myBoobyArray);
+	public void goDownAndRightFast(int i);
+	
+	public void goLeft(int i);
+	
+	public void goRight(int i);
+	
+	public void goUp(int i);
+	
+	public void goDown(int i);
+	
+	public void goLeftFast(int i);
+	
+	public void goRightFast(int i);
+	
+	public void goUpFast(int i);
+	
+	public void goDownFast(int i);
 
 }

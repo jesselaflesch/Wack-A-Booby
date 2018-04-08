@@ -7,7 +7,7 @@ public abstract class Animal
 
 	private int xLoc, yLoc;
 	protected int randint;
-	protected String imageName;
+	protected String imageName, imageNameReversed;
 	
 	protected Random generator = new Random();
 	
@@ -36,5 +36,11 @@ public abstract class Animal
 	}
 
 	public abstract String getImageName();
+	
+	public abstract String getImageNameReversed();
+	
+	public abstract void setImageName(String imageName);
+	
+	public abstract void setImageNameReversed(String imageNameReversed);
 
 }
